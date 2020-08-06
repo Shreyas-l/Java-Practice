@@ -7,9 +7,15 @@ public class ScannerInput {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int x = sc.nextInt();
+		/*int x = sc.nextInt();
+		double y = sc.nextDouble();*/
 		
-		System.out.println(x);
+		System.out.println("Input Something");
+		
+		String i = sc.nextLine();
+		
+		//System.out.println(x);
+		System.out.println("The input is : " + i);
 
 	}
 
