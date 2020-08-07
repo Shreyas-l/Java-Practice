@@ -15,11 +15,11 @@ public class Stack {
 
 		int ch,item;
 		while(true){
-			System.out.println("PUSH");
-			System.out.println("POP");
-			System.out.println("PEEK");
-			System.out.println("TRAVERSE");
-			System.out.println("QUIT");
+			System.out.println("1. PUSH");
+			System.out.println("2. POP");
+			System.out.println("3. PEEK");
+			System.out.println("4. TRAVERSE");
+			System.out.println("5. QUIT");
 
 			System.out.println("Enter Your Choice:");
 			ch = sc.nextInt();
