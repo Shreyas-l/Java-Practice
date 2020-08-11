@@ -9,23 +9,27 @@ public class ArrayIntro {
 //		int[] marks = new int[5];
 		
 		
-		int[] age = {10,20,30,40,50};
+		char[] arr = new char[10];
 		
-		int[] marks;
-		marks = new int[5];
+		//System.out.println(arr);
 		
-		for(int i=0;i<marks.length;i++) {
-			System.out.println("Enter Marks : ");
-			marks[i] = sc.nextInt();
+//		int[] age = {10,20,30,40,50};
+//		
+//		int[] marks;
+//		marks = new int[5];
+//		
+//		for(int i=0;i<marks.length;i++) {
+//			System.out.println("Enter Marks : ");
+//			marks[i] = sc.nextInt();
+//			
+//		}
+//		
+//		System.out.println("Marks Entered: ");
+//		for(int i=0;i<marks.length;i++) {
+//			System.out.print(marks[i]+" ");
 			
-		}
+			
 		
-		System.out.println("Marks Entered: ");
-		for(int i=0;i<marks.length;i++) {
-			System.out.print(marks[i]+" ");
-			
-			
-		}
 		
 		
 	}
