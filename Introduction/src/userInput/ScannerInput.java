@@ -1,11 +1,14 @@
 package userInput;
 import java.util.Scanner;
+import java.io.*;
 
 public class ScannerInput {
 
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
+		
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		int x = sc.nextInt();
 		double y = sc.nextDouble();
